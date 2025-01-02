@@ -1,0 +1,89 @@
+/* SignIn Page Styles */
+
+/* App.css */
+/* App.css */
+
+/* Background Image */
+.background {
+    
+    background-image: url('./assets/Bg1.jpeg'); /* Path to background image */
+    background-size: contain; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* No repeat */
+    background-attachment: fixed; /* Fix the background image position */
+  }
+  
+.sign-in-container {
+    border: black solid 1px;
+    background-color: #f5d0f7; /* Light background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin-top: 18rem ;
+    margin-left: 5rem;
+  }
+  
+  .sign-in-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #333;
+    
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 1.25rem;
+  }
+  
+  form label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #555;
+  }
+  
+  form input {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  form input:focus {
+    border-color: #007bff; /* Highlighted border color on focus */
+  }
+  
+  form button {
+    background-color: rgb(237, 86, 86);
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-left: 70px;
+    width: 60%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form button:hover {
+    background-color: rgb(200, 3, 3); /* Darker blue on hover */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+
+  
